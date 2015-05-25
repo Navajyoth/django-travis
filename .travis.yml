@@ -10,11 +10,12 @@ addons:
 install:
   
     - pip install -r requirements.txt
+    - pip install selenium
 
 
 
 # command to run tests
-script: python manage.py apps.utils test --settings=settings.dev
+script: python manage.py test apps.utils --settings=settings.dev
  
 
 
