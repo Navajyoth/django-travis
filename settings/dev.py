@@ -18,11 +18,7 @@ DATABASES = {
 
 BASE_URL = "http://localhost:8000/"
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'rdtcontacttree@gmail.com'
-EMAIL_HOST_PASSWORD = 'invincible123#$'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+
 
 LOGGING = {
     'version': 1,
