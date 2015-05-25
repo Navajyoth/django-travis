@@ -16,7 +16,7 @@ install:
 
 
 # command to run tests
-script: python manage.py test apps.utils --settings=settings.dev
+script: python manage.py test apps.account --settings=settings.dev
  
 
 
