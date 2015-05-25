@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'compressor',
     'apps.account',
+    'apps.utils',
 )
 
 MIDDLEWARE_CLASSES = (
