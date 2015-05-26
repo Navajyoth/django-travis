@@ -20,6 +20,12 @@ install:
 # command to run tests
 script: python manage.py test apps.account --settings=settings.dev
 
+notifications:
+  email:
+    recipients:
+      - sabareeshk1991@gmail.com 
+      
+
 
 
 
