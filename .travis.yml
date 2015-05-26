@@ -9,16 +9,19 @@ addons:
 
 # command to install dependencies
 install:
-  
+
     - pip install -r requirements.txt
     - pip install selenium
     - pip install model_mommy
 
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
 
 
 # command to run tests
 script: python manage.py test apps.account --settings=settings.dev
- 
+
+
 
 
 
