@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Navajyoth/django-travis.svg?branch=master)](https://travis-ci.org/Navajyoth/django-travis)
+
 Boilerplate for Django
 ======================
 
@@ -30,4 +32,4 @@ Client
  * Bootstrap Material Design
  * Font Awesome
 
-[![Build Status](https://travis-ci.org/Navajyoth/django-travis.svg?branch=master)](https://travis-ci.org/Navajyoth/django-travis)
+
