@@ -15,7 +15,7 @@ install:
     - pip install model_mommy
 
 before_script:
-  - psql -c 'create database travis_ci_test;' -U postgres
+  - psql -c 'create database Travis;' -U postgres
 
 
 # command to run tests
