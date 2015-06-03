@@ -6,7 +6,7 @@ def prepare_deploy():
     local("./manage.py test apps.account --settings=settings.dev")
     #local("git add -p && git commit")
     local("git add .")
-    local("git commit -am 'fab introduced'")
+    local("git commit -am 'fab file introduced'")
     local("git push origin master")
 
 
