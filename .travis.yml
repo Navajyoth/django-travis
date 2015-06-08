@@ -21,7 +21,7 @@ install:
 # command to run tests
 script: 
      - python manage.py test apps.account --settings=settings.dev 
-     - coverage run  --source=apps.account manage.py test apps.account --settings=settings.dev
+     - coverage run  --source=apps.account manage.py test apps.account 
 
 after_succes: coveralls 
 
