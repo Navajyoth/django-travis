@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Navajyoth/django-travis.svg?branch=master)](https://travis-ci.org/Navajyoth/django-travis)
+[![Build Status](https://travis-ci.org/Navajyoth/django-travis.svg?branch=master)](https://travis-ci.org/Navajyoth/django-travis) [![Coverage Status](https://coveralls.io/repos/Navajyoth/django-travis/badge.svg)](https://coveralls.io/r/Navajyoth/django-travis)
 
 Boilerplate for Django
 ======================
