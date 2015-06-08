@@ -13,12 +13,18 @@ install:
     - pip install -r requirements.txt
     - pip install selenium
     - pip install model_mommy
+    - pip install coveralls
 
 
 
 
 # command to run tests
-script: python manage.py test apps.account --settings=settings.dev 
+script: 
+     - python manage.py test apps.account --settings=settings.dev 
+     - coverage run  manage.py test apps.account --settings=settings.dev
+
+after_succes: coveralls 
+
 
 notifications:
   email:
