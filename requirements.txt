@@ -24,3 +24,5 @@ six==1.6.1
 sqlparse==0.1.15
 static==1.0.2
 static3==0.5.1
+model-mommy==1.2.4
+selenium==2.45.0
