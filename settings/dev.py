@@ -5,11 +5,11 @@ DEBUG = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'HOST': 'localhost',
-        'PORT': '5432',
-        'NAME': 'travis',
-        'USER': 'postgres',
-        'PASSWORD': 'abcd1234',
+        'HOST': '127.0.0.1',
+        'PORT': '5433',
+        'NAME': 'test',
+        'USER': os.environ.get('PG_USER'),
+        'PASSWORD': os.environ.get('PG_PASSWORD'),
         'OPTIONS': {
             # "autocommit": True,
         },
