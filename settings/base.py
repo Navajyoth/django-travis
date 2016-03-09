@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import raven
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = (
     'compressor',
     'apps.account',
     'apps.utils',
+    'raven.contrib.django.raven_compat',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -112,3 +114,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 LOGIN_URL = '/login'
 
 GRAPPELLI_ADMIN_TITLE = APP_NAME 
+
+RAVEN_CONFIG = {
+    'dsn': 'https://c15237f554364a35956bc9712e0553b5:8ea925a0735f42ea9539bdffee2d5ad9@app.getsentry.com/62752',
+  } 
+
